@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --color-primario: #000000; /*fondo*/
+  --color-secundario:#F6F6F6;
+  --color-terciario:#22D4FD ;
+;
+  
+
+  --fuente-monserrat: font-family: "Montserrat", sans-serif;
+  --fuente-kronaone: font-family: "Krona One", sans-serif;
+
+  /*-color-primario: #DEF9C4;
+  --color-secundario:#399918;
+  --color-terciario:#3FA2F6 */
+
+
+  }
+  
+
+
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+
+body {
+background-color: var(--color-primario);
+color: var(--color-secundario);
+box-sizing: border-box;
+text-align: center;
+/*height: 100vh;*/
+/*background-color: #000000;*/
+/* color: #F6F6F6; */
+
+
+}
+
+.header{
+padding: 2% 0% 0% 15%;
+
+}
+
+.header_menu{
+  display: flex;
+  gap: 80px;
+
+
+}
+
+
+.header_menu_link{
+
+  font-family: var(--fuente-monserrat);
+  font-size: 1.5 rem;
+  font-weight: 600;
+  color: var(--color-terciario);
+  text-decoration: none;
+  /* font-family: "Montserrat", sans-serif;*/
+  /* color: #22D4FD; */
+  /* font-size: 24px;*/
+
+}
+/*strong {
+
+    color: #22D4FD; 
+    
+} */
+ 
+
+
+
+
+
+    .presentacion {
+      padding: 5% 15% 6% 2%; 
+      display: flex;
+      align-items: center; /* Alinea los elementos verticalmente al centro, sin el - se alinea superior */ 
+      justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+      gap: 82px;
+     /* margin: 10% ;   /* boton el espacio */
+     /* margin: 10% 15% ; */
+    /* Aqui se edita el texto y la imagen principal*/
+    /*padding: 5% 15% 6% 2%; para ajustar el texto de la imagen principal*/
+    }
+
+
+     
+      
+   
+
+    
+    
+
+  .presentacion_contenido{
+
+    width: 615px; 
+    display:flex ;
+    flex-direction: column;
+    gap:40px;
+    
+    
+  }
+
+
+  .presentacion_contenido_titulo{
+    font-size: 1.5rem;
+    font-family: var(--fuente-kronaone);
+
+   /* font-family: "Krona One", sans-serif; */
+   /*font-size: 36px;*/
+
+ }
+
+
+ 
+
+ strong {
+
+  color: var(--color-terciario); 
+  /*color: #22D4FD; */
+  
+}
+
+
+
+ .presentacion_contenido_titulo{
+
+   font-family:var(--fuente-monserrat);
+   font-size: 2.35rem;
+   /*font-family: "Montserrat", sans-serif;*/
+   /*font-size: 24px;*/
+   
+
+   
+}
+
+.presentacion_enlaces{
+
+  display:flex;
+  justify-content: space-between ;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+
+}
+
+.presentacion_enlaces_subtitulo{
+
+  font-family: var(--fuente-kronaone);
+  font-size: 1.5rem;
+  font-weight: 400;
+  /*font-family: "Krona One", sans-serif;*/
+  /*font-size: 24px;*/
+
+
+
+}
+
+.presentacion_enlaces_link{
+
+  display: flex ;
+  justify-content: center;
+  gap: 10px; /* para separar letras o iconos */
+  border:2px solid var(--color-terciario);
+  width: 378px; 
+  text-align: center ;
+  border-radius: 8px;
+  font-size: 1.2rem; /*aqui se ajusta el tamaño de las letras instagram y github*/
+  font-weight: 600;
+  padding: 21.5px  0;
+  text-decoration:none ;
+  color: var(--color-secundario);
+  font-family: var(--fuente-monserrat);
+  font-family: "Krona One", sans-serif;
+
+  /*background-color: #22D4FD; */ 
+  /*font-family: "Montserrat", sans-serif;*/
+  /*color: #F6F6F6;*/
+  /*border:2px solid #22D4FD;*/
+  /*font-size: 24px;*/
+  /* border: 10px dotted #22D4FD;   Diseño de borde punteadas*/
+
+  /*color: #000000;*/
+ }
+
+  .presentacion_enlaces_link:hover  { 
+
+
+    background-color: var(--color-primario);
+    /*background-color: #212121;*/
+
+
+  }
+
+  .footer {
+  
+  background-color: var(--color-terciario);
+  padding: 24px;
+  color:#000000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+ /* background-color: #22D4FD;*/
+ /*font-size: 24px;*/
+
+  }
+  .presentacion_contenido_texto_uno{
+    width: 615px; 
+    display:flex ;
+    flex-direction: column;
+    gap:40px;
+    text-align: left;
+
+ }
+
+ .presentacion_contenido_texto_dos{
+  width: 615px; 
+  display:flex ;
+  flex-direction: column;
+  gap:40px;
+  text-align: left;
+
+}
+
+/*presentacion_imagen{   Ajusta dimensiones
+  width: 150px;
+   } */
+
+
+
+
+/*<a class="presentacion_enlaces_link" href="https://www.instagram.com/"> 
+                <img src="./assets/instagram.png" >  Instagram </a> */
+
+
